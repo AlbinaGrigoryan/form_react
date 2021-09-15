@@ -31,7 +31,8 @@ function App() {
     };
     const nameHandler = (e) => {
         setName(e.target.value);
-        const re = /^(([A-Za-z]+[\-\']?)*([A-Za-z]+)?\s)+([A-Za-z]+[\-\']?)*([A-Za-z]+)?$/
+        const re = /^[a-zA-Z][a-zA-Z\s\-]*$/gm;
+
         if(!re.test(e.target.value)){
             setNameDirty(true)
         }else {
