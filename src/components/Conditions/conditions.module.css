@@ -1,0 +1,47 @@
+.conditions_wrapper {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #756F86;
+    display: flex;
+    align-items: center;
+}
+.conditions_wrapper input[type='checkbox'] {
+    margin-right: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #DBE2EA;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+
+
+}
+.conditions_wrapper > input[type='checkbox']:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f00c";
+    position: absolute;
+    border: 1px solid #0880AE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.conditions_wrapper input[type='checkbox']:checked:after{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #0880AE;
+    font-weight: bold;
+    font-size: 20px;
+}

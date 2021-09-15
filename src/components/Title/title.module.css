@@ -1,0 +1,16 @@
+.form_title {
+    margin-bottom: 56px;
+}
+.form_title > h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    color: #2C2738;
+    margin-bottom: 9px;
+}
+.link {
+    font-size: 16px;
+    line-height: 22px;
+    color: #0880AE;
+}
